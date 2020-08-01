@@ -1,0 +1,66 @@
+body{
+    font-family: sans-serif;
+}
+.main-nav{
+   
+    /* background-color: indigo; */
+
+    
+}
+.nav{
+    text-align: right;
+    
+   
+}
+.nav li{
+    display: inline;
+    margin: 0 30px 0 40px;
+    
+    
+    
+    
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    
+    
+}
+a:hover{
+    color: orange;
+    transition: ease-in-out .3s;
+}
+header{
+  
+     /* The image used */
+  background-image: url("../img/keith-truck.png");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient();
+    
+}
+header .profile-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    
+}
+header .tag-name{
+    background-color: #efefef;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    display: table;
+    margin: 10px auto;
+  } 
+}
